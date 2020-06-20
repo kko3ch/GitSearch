@@ -2,9 +2,9 @@
 
 ## Author
 
-[Ko3ch]('https://github.com/Ko3ch')
+- [Ko3ch](https://github.com/Ko3ch)
 
-## About
+## Overview
 
 GitSearch is an application that on search displays a users github profile data which is *get from the github api
 
