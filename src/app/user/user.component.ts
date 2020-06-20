@@ -12,6 +12,7 @@ export class UserComponent implements OnInit {
 
   user: User;
   repos: Repository[];
+  date = new Date();
 
   constructor(private userService: UserServiceService) {
     }
