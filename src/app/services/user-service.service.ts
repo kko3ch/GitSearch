@@ -55,8 +55,7 @@ export class UserServiceService {
       repos: any[]
     }
     let promise = new Promise((resolve, reject)=>{
-      this.http.get<ApiResponse>('https://api.github.com/users/'+ 
-      this.userName + '/repos?access_token=&' + environment.myApiKey).toPromise().then(response=>{
+      this.http.get<ApiResponse>('https://api.github.com/users/'+ this.userName + '/repos?access_token=&' + environment.myApiKey).toPromise().then(response=>{
         this.repos = response.repos
         
         console.log(this.repos)
