@@ -11,7 +11,9 @@ export class UserServiceService {
 
   user: User
   userName: string
+  apiKey: string  
   constructor(private http: HttpClient) {
+    this.apiKey = environment.myApiKey;
     this.userName = 'Ko3ch'
     this.user = new User(0,'','','','',0,'')
   }
@@ -28,7 +30,7 @@ export class UserServiceService {
       html_url: string;
     }
     let promise = new Promise((resolve, reject)=>{
-      this.http.get<ApiResponse>('https://api.github.com/users/'+ this.userName + '?access_token=&' + environment.myApiKey).toPromise().then(response=>{
+      this.http.get<ApiResponse>('https://api.github.com/users/'+ this.userName + '?access_token=&' + this.apiKey).toPromise().then(response=>{
         this.user.id = response.id
         this.user.userAvatar = response.avatar_url
         this.user.userName = response.login
@@ -55,7 +57,7 @@ export class UserServiceService {
       repos: any[]
     }
     let promise = new Promise((resolve, reject)=>{
-      this.http.get<ApiResponse>('https://api.github.com/users/'+ this.userName + '/repos?access_token=&' + environment.myApiKey).toPromise().then(response=>{
+      this.http.get<ApiResponse>('https://api.github.com/users/'+ this.userName + '/repos?access_token=&' + this.apiKey).toPromise().then(response=>{
         this.repos = response.repos
         
         console.log(this.repos)
