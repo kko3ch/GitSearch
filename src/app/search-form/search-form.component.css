@@ -1,0 +1,31 @@
+input{
+  width: 80%;
+  position: absolute;
+  top: 255px;
+  border: 1px solid black;
+}
+button{
+  position: relative;
+  top: 250px;
+  left: 88%;
+  font-weight: 800;
+  color: brown;
+  padding: 8px;
+  background-color: transparent;
+}
+button:hover{
+ background-color: brown;
+ color:white;
+}
+h1{
+  cursor: pointer;
+  position: absolute;
+  top: 150px;
+  font-size: 50px;
+  color: brown;
+  border-right: 2px solid brown;
+  border-bottom: 2px solid brown;
+  box-sizing: border-box;
+  box-shadow: 17px 10px brown;
+  padding-right: 6px; 
+}
