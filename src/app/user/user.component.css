@@ -1,0 +1,78 @@
+img:hover{
+  opacity: 0.8;
+}
+#check{
+  margin-left: 0px;
+  padding-left: 20px;
+  font-size: 13px;
+  color:white;
+  background-color: black;
+  padding-top: 10px;
+  padding-bottom: 13px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+h1{
+  cursor: pointer;
+  position: absolute;
+  font-size: 30px;
+  color: brown;
+  border-right: 2px solid brown;
+  border-bottom: 2px solid brown;
+  box-sizing: border-box;
+  box-shadow: 11px 10px brown;
+  padding-right: 6px; 
+}
+h2{
+  font-weight: 750px;
+  margin-top: 20px;
+  margin-bottom: 150px;
+  color: black;
+}
+h3{
+  padding: 15px;
+  background-color: brown;
+  opacity: 0.8;
+  margin-top: 30px;
+  font-size: 35px;
+  font-family: fantasy;
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 10px;
+}
+h4{
+  font-size: 30px;
+  color: brown;
+}
+p{
+  font-weight: 900;
+  font-size: 17px;
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+a:hover{
+  color: brown; 
+}
+.panel{
+  padding: 20px;
+}
+.panel-title{
+  margin-left: 0px;
+}
+.panel:hover{
+  border-top: 1px solid brown;
+  border-right: 1px solid brown;
+}
+#githubImg{
+  border-radius: 40px;
+}
+.row{
+  background-color: whitesmoke;
+  border-left: 20px solid brown;
+}
+#pp{
+  margin-top: 80px;
+  box-shadow: 2px 2px black;
+}
