@@ -1,11 +1,11 @@
 import { Directive, OnInit, ElementRef, HostListener, HostBinding, Input } from '@angular/core';
 
 @Directive({
-  selector: '[highlight]'
+  selector: '[appHighlight]'
 })
 export class HighlightDirective implements OnInit{
 
-  @Input('highlight') highlightColor: string;
+  @Input('appHighlight') highlightColor: string;
 
   @HostBinding('style.backgroundColor') backgroundColor: string;
   @HostBinding('style.color') color: string;
