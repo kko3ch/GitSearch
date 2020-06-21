@@ -11,7 +11,7 @@ import { UserComponent } from './user/user.component';
 import { UserServiceService } from './services/user-service.service';
 import { SearchFormComponent } from './search-form/search-form.component';
 import { NotFoundComponent } from './not-found/not-found.component';
-import { HighlightDirective } from './highlight/better-highlight.directive';
+import { HighlightDirective } from './highlight/highlight.directive';
 
 @NgModule({
   declarations: [

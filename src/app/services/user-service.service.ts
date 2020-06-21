@@ -13,7 +13,7 @@ export class UserServiceService {
   userName: string
 
   constructor(private http: HttpClient) {
-    this.userName = 'Ko3ch'
+    this.userName = ''
     this.user = new User(0,0,0,'','','','','',0,'')
   }
 
