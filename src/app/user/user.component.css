@@ -24,9 +24,10 @@ h1{
   padding-right: 6px; 
 }
 h2{
+  font-size: 40px;
   font-weight: 750px;
   margin-top: 20px;
-  margin-bottom: 150px;
+  margin-bottom: 20px;
   color: black;
 }
 h3{

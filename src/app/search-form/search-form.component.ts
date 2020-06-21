@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ElementRef, ViewChild } from '@angular/core';
+import { UserServiceService } from '../services/user-service.service';
+import { User } from '../user';
 
 @Component({
   selector: 'app-search-form',
@@ -7,7 +9,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SearchFormComponent implements OnInit {
 
-  constructor() { }
+  user: User
+  username: string
+  constructor(private userService: UserServiceService) {
+   }
+
+   findUser(){
+     this.userService.upDateProfile(this.username)
+     this.userService.getUser()
+     this.user = this.userService.user
+   }
 
   ngOnInit(): void {
   }

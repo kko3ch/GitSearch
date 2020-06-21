@@ -20,10 +20,7 @@ export class UserComponent implements OnInit {
   ngOnInit(){
     this.userService.getUser()
     this.user = this.userService.user
-    this.userService.getUserRepos()
     this.repos = this.userService.repos
-    console.log(this.repos)
-    console.log(this.user)
   }  
 
 }
