@@ -9,12 +9,12 @@ button{
   top: 250px;
   left: 88%;
   font-weight: 800;
-  color: brown;
+  color: #D52E00;
   padding: 8px;
   background-color: transparent;
 }
 button:hover{
- background-color: brown;
+ background-color: #D52E00;
  color:white;
 }
 h1{
@@ -22,10 +22,10 @@ h1{
   position: absolute;
   top: 150px;
   font-size: 50px;
-  color: brown;
-  border-right: 2px solid brown;
-  border-bottom: 2px solid brown;
+  color: #D52E00;
+  border-right: 2px solid #D52E00;
+  border-bottom: 2px solid #D52E00;
   box-sizing: border-box;
-  box-shadow: 17px 10px brown;
+  box-shadow: 17px 10px #D52E00;
   padding-right: 6px; 
 }

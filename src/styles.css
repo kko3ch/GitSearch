@@ -1,5 +1,8 @@
-body{
-  background: url('https://cdn.pixabay.com/photo/2016/11/21/17/53/abstract-1846824_960_720.jpg');
+body, html{
+  background: url('https://images.unsplash.com/photo-1547068961-aa008634973d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80');
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   font-family: 'Lora', serif;
+  height: 100%;
 }
